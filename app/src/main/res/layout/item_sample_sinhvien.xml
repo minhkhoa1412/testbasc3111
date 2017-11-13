@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lln"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <TextView
+        android:textColor="#c67d7d"
+        android:id="@+id/textviewmaso"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="DH51400548"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <View
+        android:background="#f20"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"/>
+    <TextView
+        android:textColor="#000"
+        android:id="@+id/textviewtensv"
+        android:textSize="20sp"
+        android:text="Võ Hoàng Sơn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
